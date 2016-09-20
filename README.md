@@ -64,7 +64,7 @@ In the package.json, within the "config" node (add it if you don't have it alrea
 
     ...
     "config": {
-       "deps": "account cart checkout checkoutcommon shop util agelocme"
+       "deps": "account cart checkout checkoutcommon shop util "
     },
     ...
       
@@ -93,7 +93,7 @@ To run our cli, and any commands, we need to hook it all into the `npm run` inte
 
     "scripts": {
       ...
-      "cli": "node --harmony ./cli/aem_cli"
+      "cli": "node --harmony ./cli/example_cli"
       ...
     ,
 
@@ -103,7 +103,7 @@ Now that we have our `npm run cli` command, we can use it to call our other comm
 
     "scripts": {
        ...
-       "cli": "node --harmony ./cli/aem_cli",
+       "cli": "node --harmony ./cli/example_cli",
        "help": "npm run cli help -- "
        ...
     },
