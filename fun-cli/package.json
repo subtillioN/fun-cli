@@ -1,0 +1,19 @@
+{
+  "name": "fun-cli",
+  "version": "1.0.0",
+  "description": "Setup scripts to bootstrap the example-project js module projects",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@bitbucket.example-project.net/fa/setupScripts.git"
+  },
+  "devDependencies": {
+    "colors": "^1.1.2",
+    "fs": "0.0.2",
+    "jsonfile": "2.3.0",
+    "prompt": "1.0.0",
+    "ramda": "^0.21.0",
+    "rimraf": "2.5.2"
+  }
+}
